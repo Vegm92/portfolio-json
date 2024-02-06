@@ -6,7 +6,7 @@
 		"email": "victorgranda1992@gmail.com",
 		"phone": "+34 634454267",
 		"url": "https://midu.dev",
-		"summary": "2 years of experience as a Fullstack web developer. Right now I'm a Freelance web Developer, a 3D modeling and printing specialist . I live in Barcelona, Spain.",
+		"summary": "With 2 years of experience as a Fullstack web developer, I bring a robust skill set to my work. Presently, I operate as a Freelance Web Developer, providing tailored solutions to meet client needs. Additionally, I possess expertise in 3D modeling and printing, which makes me feel like a digital Michelangelo (minus the beard). Located in Barcelona, Spain, I am committed to delivering high-quality results and fostering client satisfaction. Continuously seeking opportunities for professional growth, I approach each project with diligence and a dedication to excellence, sprinkled with a pinch of humor",
 		"location": {
 			"address": "",
 			"postalCode": "08820",
@@ -84,14 +84,24 @@
 	],
 	"education": [
 		{
-			"institution": "Universitat Oberta de Catalunya",
-			"url": "https://www.uoc.edu/portal/es/index.html",
-			"area": "Ingeniero de Software",
-			"studyType": "Bachelor",
-			"startDate": "2003-01-01",
-			"endDate": "2009-01-01",
-			"score": "4.0",
-			"courses": ["DB1101 - Basic SQL"]
+			"institution": "ISDI Coders",
+			"url": "https://isdicoders.com/",
+			"area": "Fullstack Developer Bootcamp",
+			"studyType": "Bootcamp",
+			"startDate": "2022-01-01",
+			"endDate": "2023-01-01",
+			"score": "10",
+			"courses": ["Frontend - Backend"]
+		},
+		{
+			"institution": "Hofmann hospitality school",
+			"url": "https://hofmann-bcn.com/",
+			"area": "Specialist diploma in cuisine and management of restaurants",
+			"studyType": "Culinary",
+			"startDate": "2011-01-01",
+			"endDate": "2013-01-01",
+			"score": "10",
+			"courses": ["Frontend - Backend"]
 		}
 	],
 	"awards": [
@@ -200,6 +210,36 @@
 			"name": "React",
 			"level": "Avanzado",
 			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "ApiRest",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "SonarQube",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "SCRUM",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "REDUX",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "MongoDB",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+		},
+		{
+			"name": "Object-Oriented Programming",
+			"level": "Avanzado",
+			"keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
 		}
 	],
 	"languages": [
@@ -226,51 +266,50 @@
 	],
 	"projects": [
 		{
-			"name": "mars.codes",
+			"name": "PicAIsso",
 			"isActive": true,
-			"description": "Historia interactiva con retos de programación para viajar a Marte",
-			"highlights": ["Elige tu propia aventura", "En desarrollo"],
-			"url": "https://mars.codes"
+			"description": "a Single Page Application crafted with React and Redux that allows users to create and explore a captivating collection of AI generated images.",
+			"highlights": ["Make your own images.", "API REST"],
+			"url": "https://victor-granda-final-project-front-23.netlify.app/login"
 		},
 		{
-			"name": "AdventJS",
+			"name": "Todo RTK",
 			"isActive": true,
-			"description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-			"highlights": [
-				"+1 millón de visitas",
-				"Multidioma",
-				"JavaScript & TypeScript"
-			],
-			"url": "https://advent.js/dev"
+			"description": "A To do list app on redux toolkit",
+			"highlights": ["CRUD.", "REDUX & TypeScript"],
+			"url": "https://202301-w6ch1-victor-granda.netlify.app/"
 		},
 		{
-			"name": "Codember",
+			"name": "Robots (display)",
 			"isActive": true,
-			"description": "Juego interactivo de programación con retos y secretos",
-			"highlights": ["+2000 usuarios activos", "Retos para cualquier lenguaje"],
-			"url": "https://codember.dev"
+			"description": "A Single Page app to display Robot Cards",
+			"highlights": ["CRUD.", "React & TypeScript"],
+			"url": "https://202301-w7ch2-victor-granda-front.netlify.app/"
 		},
 		{
-			"name": "codi.link",
+			"name": "Pokedex",
 			"isActive": true,
-			"description": "Playground de código HTML, CSS y JavaScript para compartir",
-			"highlights": ["100k visitas al mes", "Desarrollado por la comunidad"],
-			"url": "https://codi.link",
-			"github": "https://github.com/midudev/codi.link"
+			"description": "A website showcasing the original Pokemons",
+			"highlights": ["API REST", "CRUD"],
+			"url": "https://w3chwe-victor-granda.netlify.app/",
+			"github": "https://github.com/Vegm92/202301-w3chwe-victor-granda"
 		},
 		{
-			"name": "Pruebas Técnicas",
+			"name": "JS Calculator",
 			"isActive": true,
-			"description": "Lista de pruebas técnicas de empresas para practicar programación",
+			"description": "My first JS project, a classic calculator",
 			"highlights": ["100% gratuito", "+500 soluciones de la comunidad"],
-			"url": "https://pruebastecnicas.com",
-			"github": "https://github.com/midudev/pruebas-tecnicas"
+			"url": "https://202301-w1ch1-victor-granda.netlify.app/",
+			"github": "https://github.com/Vegm92/202301-w1ch1-victor-granda"
 		},
 		{
-			"name": "miduConf",
-			"description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-			"highlights": ["+15k tickets repartidos", "+50k espectadores en directo"],
-			"url": "https://miduconf.com"
+			"name": "Minimalist Portfolio",
+			"description": "A printable portfolio made with ASTRO",
+			"highlights": [
+				"Edit Json to make your own Portfolio",
+				"Small sized static website"
+			],
+			"url": "https://victorgrandaportfolio.netlify.app/"
 		}
 	]
 }

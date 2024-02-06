@@ -7,11 +7,11 @@ import GitHub from '@/icons/GitHub.astro';
 import LinkedIn from '@/icons/LinkedIn.astro';
 import X from '@/icons/X.astro';
 import WorldMap from '@/icons/WorldMap.astro';
-import { boolean } from 'astro/zod';
+import type { SocialIcon } from '@/types';
 
 const {name , label, image, location, email, phone, profiles, summary, url } = basics;
 const {city, region } = location
-const SOCIAL_ICONS: Record<string, any> = {
+const SOCIAL_ICONS: SocialIcon = {
   GitHub,
   LinkedIn,
   X

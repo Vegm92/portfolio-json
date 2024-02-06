@@ -14,19 +14,17 @@ const {name, label} = basics
 ---
 
 
-<Layout title=`${name}'s Portfolio'`>
-	<>
+<Layout title={`${name}'s Portfolio - ${label}`}>
+	<main>
 		<Hero />
 		<About />
 		<Experience />
 		<Education/>
-		<Skills />
 		<Projects />
+		<Skills />
 	</main>
 
 <KeyboardManager/>
-
-
 </Layout>
 
 <style>
@@ -38,7 +36,7 @@ const {name, label} = basics
 
   @media (width <= 700px) {
     main {
-      padding: 1rem;
+      padding: 2rem;
     }
   }
 </style>
