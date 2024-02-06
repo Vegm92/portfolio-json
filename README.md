@@ -1,6 +1,6 @@
 <div align="center">
 <h2>
-    Minimalist <em>Portfolio</em> for web and pdf display
+    Minimalist<em> Portfolio </em>for web and pdf display
 </h2>
 <p>
 The JSON Resume schema is a JSON-based format for representing a candidate's or job seeker's resume. It provides a standardized structure for representing various types of data, such as contact information, education, work experience, and skills. The schema is defined by the JSON Resume organization and is widely used in the industry. <a href="https://jsonresume.org/schema/">jsonresume.org</a>
@@ -8,8 +8,8 @@ The JSON Resume schema is a JSON-based format for representing a candidate's or 
 
 <p>
 Based in the design of <a href="https://github.com/BartoszJarocki/cv">Bartosz Jarocki</a>
-
 </p>
+<p>Visit the <a href="https://victorgrandaportfolio.netlify.app/">Portfolio</a></p>
 
 <img src="portada.png"></img>
 

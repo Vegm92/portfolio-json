@@ -9,7 +9,7 @@
 		"preview": "astro preview",
 		"astro": "astro",
 		"gc": "git commit -m",
-		"gs": "git add .",
+		"ga": "git add .",
 		"gp": "git push",
 		"lint": "npx eslint ./"
 	},

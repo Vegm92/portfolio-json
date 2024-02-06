@@ -7,7 +7,7 @@ import { work } from "@cv"
   <ul>
     {
 			work.map(
-      ({name, startDate, endDate, position,summary, competencies }) =>{
+      ({name, startDate, endDate, position, summary, competencies,url }) =>{
         const startYear = new Date(startDate).getFullYear();
         const endYear = endDate != null ?  new Date(endDate).getFullYear() : "Present";
         const years = `${startYear} - ${endYear}`;
@@ -16,9 +16,16 @@ import { work } from "@cv"
 					<li>
             <article>
               <header>
-                <div>
-                  <h3>{name}</h3>
-                  <h4>{position}</h4>
+								<div>
+									<a
+											href={`${url}`}
+											title={`Visit ${name} at ${url}`}
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+										<h3>{name}</h3>
+									</a>
+										<h4>{position}</h4>
                 </div>
 
                 <time>

@@ -55,6 +55,7 @@
 		{
 			"name": "ISDI Coders",
 			"position": "Full Stack Developer",
+			"url": "https://isdicoders.com/",
 			"startDate": "2022-08-01",
 			"endDate": "2023-03-01",
 			"summary": "In my time at the ISDI Coders Fullstack developer bootcamp program, I gained valuable experience in a simulated professional setting, honing key skills for web development and programming.",
@@ -268,14 +269,14 @@
 		{
 			"name": "PicAIsso",
 			"isActive": true,
-			"description": "a Single Page Application crafted with React and Redux that allows users to create and explore a captivating collection of AI generated images.",
+			"description": "a Single Page Application crafted with React and Redux that allows users to create and explore a captivating collection of AI generated images. Credentials: email: fakeuser@gmail.com. password: userpassword",
 			"highlights": ["Make your own images.", "API REST"],
 			"url": "https://victor-granda-final-project-front-23.netlify.app/login"
 		},
 		{
 			"name": "Todo RTK",
 			"isActive": true,
-			"description": "A To do list app on redux toolkit",
+			"description": "A To do list app on redux toolkit, where the user can create, modify and delete tasks",
 			"highlights": ["CRUD.", "REDUX & TypeScript"],
 			"url": "https://202301-w6ch1-victor-granda.netlify.app/"
 		},
@@ -304,6 +305,7 @@
 		},
 		{
 			"name": "Minimalist Portfolio",
+			"isActive": true,
 			"description": "A printable portfolio made with ASTRO",
 			"highlights": [
 				"Edit Json to make your own Portfolio",

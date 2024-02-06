@@ -50,7 +50,7 @@ import { projects } from "@cv";
 
   article {
     border-radius: 8px;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #e4e4e4a2;
     gap: 16px;
     display: flex;
     flex-direction: column;
@@ -60,9 +60,10 @@ import { projects } from "@cv";
 
 
   article:hover {
-    background: #eee;
-    border: 2px solid #282828;
+    background: #ffffff;
 		transition: all 0.3s ease;
+		box-shadow: .1rem .1rem .1rem rgb(112, 112, 112);
+
 
   }
 
@@ -114,14 +115,21 @@ import { projects } from "@cv";
   }
 
   @media (width <= 700px) {
-    ul {
+		ul {
       margin-inline: 0px;
+
     }
 
     article {
       border: none;
       box-shadow: 0 1px 1px #f2f2f2;
       padding: 0 0 16px 0;
+			text-align: center;
+			footer {
+    	justify-content: center;
+
+			}
+
     }
   }
 </style>
