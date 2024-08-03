@@ -24,7 +24,7 @@ import { projects } from "@cv";
 							<footer>{
 								highlights.map(highlights =>{
 									return(
-										<li>{highlights}</li>
+										<label>{highlights}</label>
 									)
 								})
 
@@ -47,6 +47,12 @@ import { projects } from "@cv";
     gap: 1rem;
     margin-inline: -16px;
   }
+
+	label {
+		background-color: rgb(228, 225, 221);
+		border-radius: 5%;
+		padding: 6px;
+	}
 
   article {
     border-radius: 8px;
@@ -127,7 +133,6 @@ import { projects } from "@cv";
 			text-align: center;
 			footer {
     	justify-content: center;
-
 			}
 
     }
